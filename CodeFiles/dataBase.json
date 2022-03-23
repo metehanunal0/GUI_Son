@@ -1,0 +1,13 @@
+{
+    "pidMenu":{
+        "Roll P":10 , 
+        "Roll I":10 , 
+        "Roll D":55 , 
+        "Depth P":22 , 
+        "Depth I":22 , 
+        "Depth D":22 , 
+        "Pitch P":22 , 
+        "Pitch I":22 , 
+        "Pitch D":22
+    }
+}

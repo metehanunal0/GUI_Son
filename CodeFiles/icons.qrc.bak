@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>undersea.jpg</file>
+  </qresource>
+  <qresource prefix="mainIcon">
+    <file>../Static Images/casmarine_yesil_yuvarlak.png</file>
+    <file>../Static Images/ytu.png</file>
+  </qresource>
+  <qresource prefix="icon2">
+    <file>green.jpg</file>
+    <file>water.jpg</file>
+  </qresource>
+</RCC>
