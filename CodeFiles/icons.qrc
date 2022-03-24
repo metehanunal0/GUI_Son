@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>../Static Images/casmarine_siyah.jpeg</file>
+  </qresource>
+  <qresource prefix="logo">
+    <file>../Static Images/undersea.jpg</file>
+  </qresource>
+  <qresource prefix="mainIcon">
+    <file>../Static Images/ytu.jpeg</file>
+  </qresource>
+  <qresource prefix="icon2">
+    <file>../Static Images/alt.png</file>
+    <file>../Static Images/on.png</file>
+    <file>../Static Images/autoOn.png</file>
+    <file>../Static Images/autoOff.png</file>
+  </qresource>
+</RCC>

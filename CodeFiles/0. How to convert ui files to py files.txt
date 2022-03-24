@@ -1,0 +1,5 @@
+1. Open cmd in this folder.
+2. Activate the enviroment pyqt is in.
+3. Type "pyuic5 inputfile.ui -o outputfile.ui" in cmd.
+3.1. Or type "pyuic5 -x inputfile.ui -o outputfile.py"
+4. Done! No message should be shown in cmd but file will be created.

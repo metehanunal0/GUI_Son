@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>missionMenu</class>
+ <widget class="QWidget" name="missionMenu">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>370</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>450</width>
+    <height>370</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>20</y>
+     <width>271</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:qlineargradient(spread:pad, x1:0, y1:0.0284091, x2:0.836, y2:0.0336818, stop:0 rgba(0, 198, 0, 255), stop:1 rgba(0, 0, 0, 255));
+
+color: rgb(255, 255, 255);
+border: 2px solid;
+border-color: rgb(255, 255, 255);
+border-radius:10px;
+padding-left:30px;
+padding-bottom:8px;
+
+</string>
+   </property>
+   <property name="insertPolicy">
+    <enum>QComboBox::InsertAtCurrent</enum>
+   </property>
+   <item>
+    <property name="text">
+     <string>Mission-1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mission-2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mission-3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mission-4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Mission-5</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="applyLabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.502, y2:0.517091, stop:0 rgba(36, 225, 42, 255), stop:1 rgba(13, 110, 8, 255));
+  width: 100%;
+  z-index: -1;
+  position: relative;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+border-radius:15px;
+
+
+}
+QLabel::Hover{
+  top: 0px;
+  left: 0px;
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="applyButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>8-bit Operator+ 8</family>
+     <pointsize>-1</pointsize>
+     <weight>25</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: rgb(255, 255, 255);
+ font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding-top:5px;
+  outline: 0;
+  border: 3px solid;
+border-radius:15px;
+
+	border-color: rgb(255, 255, 255);
+
+  position: relative;
+  background-color: rgba(0, 255, 0, 0);
+}
+
+QPushButton:Hover{
+position :-5px 5px;
+label.left : -5px;
+}
+QPushButton:pressed{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.502, y2:0.517091, stop:0 rgba(13, 110, 8, 255), stop:1 rgba(36, 225, 42, 255));
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>APPLY</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopButton">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>120</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>8-bit Operator+ 8</family>
+     <pointsize>-1</pointsize>
+     <weight>25</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	color: rgb(255, 255, 255);
+ font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+padding-top:5px;
+  
+  outline: 0;
+  border: 3px solid;
+border-radius:15px;
+
+	border-color: rgb(255, 255, 255);
+
+  position: relative;
+  background-color: rgba(0, 255, 0, 0);
+}
+
+QPushButton:Hover{
+position :-5px 5px;
+label.left : -5px;
+}
+QPushButton:pressed{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.502, y2:0.517091, stop:0 rgba(13, 110, 8, 255), stop:1 rgba(36, 225, 42, 255));
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string>STOP</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="stopLabel">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>130</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0.502, y2:0.517091, stop:0 rgba(36, 225, 42, 255), stop:1 rgba(13, 110, 8, 255));
+  width: 100%;
+  z-index: -1;
+  position: relative;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+border-radius:15px;
+
+
+}
+QLabel::Hover{
+  top: 0px;
+  left: 0px;
+
+
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>450</width>
+     <height>370</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border-image: url(../Static Images/casmarine_siyah.jpeg)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icons.qrc">:/icons/Static Images/casmarine_siyah.jpeg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>applyLabel</zorder>
+  <zorder>applyButton</zorder>
+  <zorder>stopLabel</zorder>
+  <zorder>stopButton</zorder>
+  <zorder>comboBox</zorder>
+ </widget>
+ <resources>
+  <include location="icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
